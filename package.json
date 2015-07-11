@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/plusmancn/node-test#readme",
   "dependencies": {
-    "moment": "^2.10.3"
+    "moment": "^2.10.3",
+    "moment-timezone": "^0.4.0"
   }
 }
