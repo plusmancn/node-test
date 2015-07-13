@@ -61,8 +61,15 @@ memcached.get('key_not_exits',function(err,data){
 });
 
 /**
- * @description 获取键值以及cas值
+ * @description 测试关闭连接方法
  */
-memcached.gets('key',function(err,data){
-  console.log(data,'m.gets.key'); // { key: 'value_by_set', cas: '68' } 'm.gets.key'
-});
+memcached.end();
+
+/**
+ * @description 再次尝试获取信息，会尝试重新建立连接
+ */
+memcached.get('key',function(err,data){
+  console.log(err,data,'m.get.key.after.close.connetction'); 
+  // undefined 'value_by_set' 'm.get.key.after.close.connetction'
+})
+
