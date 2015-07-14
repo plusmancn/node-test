@@ -66,7 +66,7 @@ function startFunc () {
   setTimeout(_deferred.resolve.bind(_deferred),1000,'startFunc resolve');
   setTimeout(_deferred.reject.bind(_deferred),2000,'startFunc reject');
   var intervalId = setInterval(_deferred.process.bind(_deferred),500,'startFunc process' + Date.now()); // 记录定时器ID
-  setTimeout(clearInterval,3000,intervalId); // 4 秒后清空定时器 
+  setTimeout(clearInterval,3000,intervalId); // 3 秒后清空定时器 
 
   return _deferred._promsie;
 }
