@@ -28,3 +28,7 @@ node_modules
 
 # 忽略mac系统文件
 .DS_Store
+
+# 忽略MarkdownPreview中间文件
+README.html
+RESUME.html
