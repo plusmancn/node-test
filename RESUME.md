@@ -18,7 +18,7 @@
  - 技术博客：https://github.com/plusmancn/node-test
  - Github: http://github.com/plusmancn
 
- - 期望职位：NodeJS初级程序员
+ - 期望职位：nodejs初级程序员
  - 期望薪资：税前月薪8k~15k
  - 期望城市：杭州
 
