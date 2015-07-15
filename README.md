@@ -8,5 +8,7 @@
 * 05-nginx-with-node    nginx下node反向代理测试
 * 06-memcached-usage    结合npm memcached 使用方法测试
 * 07-deploy-bash-shell  部署脚本测试
-* 08-env-detech         服务器端&浏览器端运行环境检测类测试        
+* 08-env-detech         服务器端&浏览器端运行环境检测类测试     
+* 11-html-meta          html meta标签，服务器header设置优先级比较
+* 14-short-url          短域名服务研究和测试   
 ```
