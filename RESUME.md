@@ -11,16 +11,15 @@
 
 ## 个人信息
 
- - 刘佳男/男/1992 
- - 本科/杭州电子科技大学通信工程
- - 工作年限：2年
- - 微博：[@plusmancn](http://weibo.com/plusmancn)
- - 技术博客：https://github.com/plusmancn/node-test
- - Github: http://github.com/plusmancn
-
- - 期望职位：nodejs初级程序员
- - 期望薪资：看贡献和能力，拿应得的。
- - 期望城市：杭州
+- 刘佳男/男/1992 
+- 本科/杭州电子科技大学通信工程
+- 工作年限：2年
+- 微博：[@plusmancn](http://weibo.com/plusmancn)
+- 技术博客：https://github.com/plusmancn/node-test
+- Github: http://github.com/plusmancn
+- 期望职位：nodejs初级程序员
+- 期望薪资：能力即所得
+- 期望城市：杭州
 
 ---
 
