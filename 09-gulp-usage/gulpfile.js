@@ -1,4 +1,12 @@
 'use strict';
+/**
+ * @description 参考资料
+ *
+ * ## gulp.src
+ * [api doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulpsrcglobs-options)
+ * [glob](https://github.com/isaacs/node-glob.git)
+ */
+
 var gulp = require('gulp');
 var gulpLoadPlugins = require('gulp-load-plugins');
 var plugins = gulpLoadPlugins();
@@ -6,7 +14,7 @@ var plugins = gulpLoadPlugins();
 
 /****************** bower插件资源打包 ***********************/
 var BOWER_PATH = './bower_components/';
-var DEST_PATH = './static/'
+var DEST_PATH = './static/';
 
 // 打包bootstrap3
 gulp.task('pa-bootstrap',function(){
