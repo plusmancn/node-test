@@ -19,7 +19,7 @@
  - Github: http://github.com/plusmancn
 
  - 期望职位：nodejs初级程序员
- - 期望薪资：税前月薪8k~15k
+ - 期望薪资：看贡献和能力，拿应得的。
  - 期望城市：杭州
 
 ---
