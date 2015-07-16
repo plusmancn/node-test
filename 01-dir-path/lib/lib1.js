@@ -1,4 +1,12 @@
 'use strict';
+var testJson = require('../config/test.json');
+console.log(testJson);
 
-console.log('lib1 absoulate');
-console.log('lib1 at',process.cwd());
+console.log(__filename,' at ',__dirname);
+console.log(__filename,' cwd at ',process.cwd());
+
+
+module.exports.getJson = function(){
+  var testJson = require('../config/test.json');
+  console.log('From function',testJson);  
+}
