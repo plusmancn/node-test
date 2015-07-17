@@ -54,7 +54,7 @@
  - [G5](https://github.com/plusmancn/G5.git) 类似phoneGap的Hybrid App运行环境。
 
 ## 技术文章
-（挑选你写作或翻译的技术文章，好的文章可以从侧面证实你的表达和沟通能力，也帮助招聘方更了解你）
+
 
 - []()
 

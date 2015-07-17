@@ -11,4 +11,5 @@
 * 08-env-detech         服务器端&浏览器端运行环境检测类测试     
 * 11-html-meta          html meta标签，服务器header设置优先级比较
 * 14-short-url          短域名服务研究和测试   
+* 16-form-data-init     结合bootstrap表单数据初始化jquery插件
 ```
