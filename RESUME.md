@@ -15,8 +15,9 @@
 - 本科/杭州电子科技大学通信工程
 - 工作年限：2年
 - 微博：[@plusmancn](http://weibo.com/plusmancn)
-- 技术博客：https://github.com/plusmancn/node-test
-- Github: http://github.com/plusmancn
+- 技术博客：[https://github.com/plusmancn/node-test]()
+- Github: [http://github.com/plusmancn](http://github.com/plusmancn)
+- stackoverflow [http://stackoverflow.com/users/1914450/plusmancn](http://stackoverflow.com/users/1914450/plusmancn)
 - 期望职位：nodejs初级程序员
 - 期望薪资：能力即所得
 - 期望城市：杭州
@@ -31,8 +32,8 @@
 ### 其他
 之后做过的几个项目，都是基于node技术栈的。在其中负责项目架构、服务器开发以及工作流的搭建，期间接触了gulp、mocha、jsdoc，慢慢开始有了一些工程意识，认识到到单元测试和文档的重要性。
  
-## 分分钟印[www.ffzy.me]（创始人） （ 2013年7月 ~ 2014年6月 ）
-13年8月萌生做微信在线打印的想法，一开始的目标是做个好玩的东西，不是创业。  全栈角色，全年无休。独自一人用php实现用户和商家后台，兼顾前端页面和微信开发，基于树莓派使用cpus、python开发了智能打印盒子（具有扫码打印、订单提醒、web管理界面功能）。  
+## 分分钟印（创始人） （ 2013年7月 ~ 2014年6月 ）
+[www.ffzy.me](http://www.ffzy.me) 13年8月萌生做微信在线打印的想法，一开始的目标是做个好玩的东西，不是创业。全栈角色，全年无休，独自一人用php实现用户和商家后台，兼顾前端页面和微信开发，基于树莓派使用cpus、python开发了智能打印盒子（具有扫码打印、订单提醒、web管理界面功能）。  
 虽然最后失败了，也由于创业导致基础知识薄弱、错过实习招聘季等原因，没能再去大公司。但是，不后悔。
 
 ---
