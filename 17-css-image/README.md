@@ -11,6 +11,12 @@ background-attachment 主要是用来设置背景图像是否固定或者随着�
 **background-size**  
 可选值：cover（满屏，不一定完整显示图片）, contain（在区域内完整显示图片，不一定满屏）
 
+**background-position 位置参照点**
+```
+Horizontal  0% 参照点为图片最左边界点，100% 参照为图片最右边界点
+Vertical    参照点为图片上下中心点
+```
+
 **前缀含义**
 ```
 -webkit-  webkit  
