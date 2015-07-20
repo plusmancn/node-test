@@ -23,7 +23,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  background:url('../img-dwj/black_0dot_6.png') repeat;
+  background:url('./black_0dot_6.png') repeat;
   top: 0px;
   left: 0px;
 }
