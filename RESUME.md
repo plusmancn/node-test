@@ -15,7 +15,7 @@
 - 本科/杭州电子科技大学通信工程
 - 工作年限：2年
 - 微博：[@plusmancn](http://weibo.com/plusmancn)
-- 技术博客：[https://github.com/plusmancn/node-test]()
+- 技术博客：[https://github.com/plusmancn/node-test](https://github.com/plusmancn/node-test)
 - Github: [http://github.com/plusmancn](http://github.com/plusmancn)
 - stackoverflow [http://stackoverflow.com/users/1914450/plusmancn](http://stackoverflow.com/users/1914450/plusmancn)
 - 期望职位：nodejs初级程序员

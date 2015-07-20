@@ -1,4 +1,4 @@
-# css 设置图片背景图片
+## css 设置图片背景图片
 **background**  
 设置顺序为：背景色 图片地址（远程或者和css路径的相对的地址）图片重复方式 background-attachment 背景位置
 ```css
@@ -38,7 +38,7 @@ Vertical    参照点为图片上下中心点
 **补充**
 [CSS3 Background-size](http://www.w3cplus.com/content/css3-background-size/)
 
-# 圆形头像
+## 圆形头像
 利用boder-radius属性
 ```css
 .avatar-round {
@@ -49,4 +49,10 @@ Vertical    参照点为图片上下中心点
 }
 ```
 **boder 更确切的说是 inner-boder**  
-boder会向内占据空间
+boder会向内占据空间，但是不会增大元素盒模型的大小  
+对应的padding，则增大元素所占空间。
+
+
+## position 类型和区别
+[W3cschool CSS position 属性](http://www.w3school.com.cn/cssref/pr_class_position.asp)
+
