@@ -63,6 +63,14 @@
 ## display inline inline-block inline-table block 属性
 
 ## flex布局
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## box-shadow 属性
+```css
+box-shadow:2px 2px 3px #aaaaaa;
+```
 [CSS3 box-shadow 属性](http://www.w3school.com.cn/cssref/pr_box-shadow.asp)
+
+
+## position 类型和区别
+[W3cschool CSS position 属性](http://www.w3school.com.cn/cssref/pr_class_position.asp)

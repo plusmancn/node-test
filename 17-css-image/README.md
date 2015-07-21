@@ -52,7 +52,3 @@ Vertical    参照点为图片上下中心点
 boder会向内占据空间，但是不会增大元素盒模型的大小  
 对应的padding，则增大元素所占空间。
 
-
-## position 类型和区别
-[W3cschool CSS position 属性](http://www.w3school.com.cn/cssref/pr_class_position.asp)
-
