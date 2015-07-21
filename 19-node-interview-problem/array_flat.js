@@ -1,19 +1,8 @@
 'use strict';
-var input = [1, [2, [ [3, 4], 5], 6]];
-
-// function flat(input){
-//   var flat_array = [];
-//   for (var i = 0; i < input.length; i++) {
-//     if (Array.isArray(input[i])) {
-//       flat_array.concat(flat(input[i]));
-//     }else{
-//       flat_array.push(input[i]);
-//     }
-//   };
-// }
-
-// var res = flat(input);
-// console.log(res);
+/**
+ * 字符串化实现
+ */
+var input = [1, [2, [[3, 4], 5], 6]];
 
 function flat(input){
   var str = JSON.stringify(input);
@@ -23,4 +12,28 @@ function flat(input){
   });
   return flat_array;
 }
+
 console.log(flat(input));
+
+
+/**
+ * 递归实现
+ */
+function flat_resucre(input){
+  var flat_array = [];
+
+  function loop(arg){
+    for (var i = 0; i < arg.length; i++) {
+      if (Array.isArray(arg[i])) {
+          loop(arg[i]);
+      }else{
+        flat_array.push(arg[i]);
+      }
+    }
+  }
+
+  loop(input);
+  return flat_array;
+}
+
+console.log(flat_resucre(input));
