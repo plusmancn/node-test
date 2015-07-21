@@ -61,6 +61,7 @@ console.log(str.getLength());
 ```
 如：[1, [2, [ [3, 4], 5], 6]] => [1, 2, 3, 4, 5, 6]
 ```
+```javascript
 'use strict';
 /**
  * 字符串化实现
