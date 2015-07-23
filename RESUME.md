@@ -18,7 +18,7 @@
 - 技术博客：[https://github.com/plusmancn/node-test](https://github.com/plusmancn/node-test)
 - Github: [http://github.com/plusmancn](http://github.com/plusmancn)
 - stackoverflow [http://stackoverflow.com/users/1914450/plusmancn](http://stackoverflow.com/users/1914450/plusmancn)
-- 期望职位：nodejs初级程序员
+- 期望职位：node攻城狮
 - 期望薪资：能力即所得
 - 期望城市：杭州
 
