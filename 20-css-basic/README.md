@@ -91,7 +91,7 @@ function spAlert(header,body,callback){
   var haoDe = E.getElementsByTagName('button')[0];
   haoDe.addEventListener('click',clearSpAlert,false);
 
-  // 如果存在回掉事件，则绑定
+  // 如果存在回调事件，则绑定
   if (callback) {
     haoDe.addEventListener('click',callback,false);
   }
