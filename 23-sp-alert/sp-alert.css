@@ -1,0 +1,54 @@
+/**
+ * 弹框css
+ */
+#alert-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background:url('../img-dwj/black_0dot_6.png') repeat;
+  top: 0px;
+  left: 0px;
+  z-index: 9000;
+}
+
+#alert-overlay .div-alert {
+  text-align: center;
+  color: #000;
+  background-color: #F1E8E8;
+  z-index: 9001;
+  margin-left: 10%;
+  width: 80%;
+  border-radius: 6px;
+  margin-top: 40%;
+  opacity: 0.88;
+}
+
+#alert-overlay .alert-header {
+  font-size: 16px;
+  padding: 10px;
+}
+
+#alert-overlay .alert-body {
+  font-size: 13px;
+  padding: 10px 5px;
+}
+
+#alert-overlay .alert-action {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+#alert-overlay .alert-action button {
+  border: 0px;
+  background-color: inherit;
+  color: #4F98EC;
+  width: 100%;
+  padding: 10px;
+}
+
+#alert-overlay .alert-action button:active,#alert-overlay .alert-action button:hover {
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+/***************** END 弹框Css *****************/
