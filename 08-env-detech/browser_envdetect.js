@@ -11,7 +11,7 @@
     module.exports = defination();
   }else{
     // 浏览器支持
-    this[name] = defination(); 
+    window[name] = defination(); 
   }
 })('browserEnvdetect',function(){
   /**
