@@ -1,17 +1,14 @@
 # 简易弹框 spAlert
 ## Install
 ```html
-<script type="text/javascript" src="./"></script>
+<link rel="stylesheet" type="text/css" href="path-to/sp-alert.css">
+<script type="text/javascript" src="path-to/sp-alert.js"></script>
 ```
 
-## 调用示例
-```
+## Usage
+```javascirpt
 spAlert('这是标题','这是正文',function(){
     // 用户按了确认后的回调函数
     // do something
-});
-```
-$('#form1').bindData({
-  data:
 });
 ```
