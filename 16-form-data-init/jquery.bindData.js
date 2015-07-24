@@ -1,5 +1,5 @@
 /**
- * 表单数据初始化类
+ * jquery 表单数据初始化
  */
 ;(function($){
   $.fn.bindData = function(opts) {
@@ -59,16 +59,22 @@
           this.value === value ? addClass(this,options.parentActive):removeClass(this,options.parentActive);
         });
       } else if (tagName === "input" || tagName === "textarea" || tagName === "select") {
+        var valueArray = [];
         // 非数组转换为数组
         if (((tagName === "input" && type === "checkbox") || tagName === "select") && typeof(value) === "string") {
-          $(elements).val(value.split(","));
+          valueArray = value.split(","); 
+          $(elements).val(valueArray);
+
         } else {
           // 赋值方式1：通过数组方式赋值
-          $(elements).val(value); 
-          $(elements).each(function(){
-            value.indexOf(this.value) !== -1 ? addClass(this,options.parentActive):removeClass(this,options.parentActive)
-          });
+          valueArray = value;
+          $(elements).val(valueArray); 
         }
+
+        $(elements).each(function(){
+          valueArray.indexOf(this.value) !== -1 ? addClass(this,options.parentActive):removeClass(this,options.parentActive);
+        });
+
       } else {
         $(elements).html(value);
       }
