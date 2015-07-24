@@ -1,5 +1,5 @@
 # 简易弹框 spAlert
-## install
+## Install
 ```html
 <link rel="stylesheet" type="text/css" href="path-to/sp-alert.css">
 <script type="text/javascript" src="path-to/sp-alert.js></script>
