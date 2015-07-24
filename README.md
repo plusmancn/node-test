@@ -1,6 +1,5 @@
 # node-test
->node playground
-大量代码出自 [JackSon Tian](https://github.com/JacksonTian) 所著《深入浅出node.js》
+>node & javascript playground
 
 ## Index
 ```
@@ -28,3 +27,6 @@
 * 22-linux-basic        linux基础知识
 * 23-sp-alert           简易弹框实现，模拟ios原生弹框，添加回调方法
 ```
+
+## 参考资源
+[JackSon Tian](https://github.com/JacksonTian) 所著《深入浅出node.js》
