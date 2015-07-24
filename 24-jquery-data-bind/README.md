@@ -8,7 +8,7 @@
 ```
 
 ## Usage
-```
+```javascript
 $('#form1').bindData({
   data:{
     "code": "1",
