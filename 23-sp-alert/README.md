@@ -1,4 +1,9 @@
 # 简易弹框 spAlert
+## Install
+```html
+<script type="text/javascript" src="./"></script>
+```
+
 ## 调用示例
 ```
 spAlert('这是标题','这是正文',function(){
@@ -6,4 +11,7 @@ spAlert('这是标题','这是正文',function(){
     // do something
 });
 ```
+$('#form1').bindData({
+  data:
+});
 ```
