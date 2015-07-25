@@ -5,7 +5,7 @@
 **引用**
 ```html
 <script type="text/javascript" src="./EventEmitter.min.js"></script>
-<script type="text/javascript" src="./timer.js"></script>
+<script type="text/javascript" src="./Timer.js"></script>
 ```
 **示例**
 ```javascript
