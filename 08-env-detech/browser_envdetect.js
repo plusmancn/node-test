@@ -29,10 +29,6 @@
   BrowserEnvdetect.prototype.isTrident = function() {
     return this.u.indexOf('Trident') > -1; //IE内核
   };
-
-  BrowserEnvdetect.prototype.isTrident = function(){
-    return this.u.indexOf('Trident') > -1; //IE内核
-  };
     
   BrowserEnvdetect.prototype.isPresto = function(){
     return this.u.indexOf('Presto') > -1; //opera内核

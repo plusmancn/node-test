@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 指定编码，文件类型 -->
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+
+  <title>LED显示屏</title>
+  <style type="text/css">
+    body {
+      margin: 0px;
+    }
+    /**
+     * 颜色渐变
+     */
+    div#div2{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background:red;
+      animation:myfirst 2s;
+      -webkit-animation:myfirst 2s; /* Safari and Chrome */
+      animation-direction: alternate; /* 交替播放 */
+      -webkit-animation-direction: alternate;
+      animation-iteration-count: infinite; /* 无限循环 */
+      -webkit-animation-iteration-count: infinite;
+    }
+
+    @keyframes myfirst
+    {
+      from {background: red;}
+      to {background: yellow;}
+    }
+
+    @-webkit-keyframes myfirst /* Safari 和 Chrome */
+    {
+      from {background: red;}
+      to {background: yellow;}
+    }
+
+
+  </style>
+</head>
+<body>
+  <div id="div2"></div>
+</body>
+</html>

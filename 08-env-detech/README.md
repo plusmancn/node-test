@@ -5,4 +5,6 @@
 **浏览器环境**
 ```javascript
 var probe = new browserEncDetech();
+probe.isIos(); // 判断是否是ios系统
+probe.isAndroid(); // 判断是否是安卓系统
 ```
