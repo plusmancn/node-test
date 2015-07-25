@@ -26,6 +26,7 @@
 * 21-css-animation      css3动画
 * 22-linux-basic        linux基础知识
 * 23-sp-alert           简易弹框实现，模拟ios原生弹框，添加回调方法
+* 24-timer              浏览器内事件驱动（非基于dom）倒计时器
 ```
 
 ## 参考资源

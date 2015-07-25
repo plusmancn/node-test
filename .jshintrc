@@ -17,7 +17,8 @@
     "define",
     "$$",
     "$",
-    "Dom7"
+    "Dom7",
+    "EventEmitter"
   ],
   "node": true,
   "bitwise": true,

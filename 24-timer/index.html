@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>倒计时器示例</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+  <meta name="author" content="plusmancn@gmail.com">
+
+  <style type="text/css">
+    body {
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .screen {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      line-height: 4em;
+      text-align: center;
+      font-size: 100px;
+      animation: scale1dot5 1s infinite alternate;
+      -webkit-animation: scale1dot5 1s infinite alternate;
+    }
+
+    /**
+     * 动画定义
+     */
+    @keyframes scale1dot5 {
+      from {transform: none;}
+      to {transform: scale(1.5);}
+    }
+
+    @-webkit-keyframes scale1dot5 {
+      from {-webkit-transform: none;}
+      to {-webkit-transform: scale(1.5);} 
+    }
+
+  </style>
+</head>
+<body>
+  <div class="screen" id="screen">
+    10
+  </div>
+
+  <script type="text/javascript" src="./EventEmitter.min.js"></script>
+  <script type="text/javascript" src="./Timer.js"></script>
+
+  <script type="text/javascript">
+    var screenDiv = document.getElementById('screen');
+    screenDiv.innerText = 'START';
+    var timer = new Timer(10);
+    timer.on('now',function(now){
+      screenDiv.innerText = now;
+    });
+    timer.on('end',function(){
+      screenDiv.innerText = 'END';
+    });
+  </script>
+
+</body>
+</html>
