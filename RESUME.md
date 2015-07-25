@@ -12,8 +12,8 @@
 ## 个人信息
 
 - 刘佳男/男/1992 
-- 本科/杭州电子科技大学通信工程
-- 工作年限：2年
+- 本科/杭州电子科技大学通信工程 (2011-2015)
+- 工作年限：1年
 - 微博：[@plusmancn](http://weibo.com/plusmancn)
 - 技术博客：[https://github.com/plusmancn/node-test](https://github.com/plusmancn/node-test)
 - Github: [http://github.com/plusmancn](http://github.com/plusmancn)
