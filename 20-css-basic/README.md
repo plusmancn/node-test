@@ -12,11 +12,6 @@
 参考：[CSS 单行溢出文本显示省略号...的方法（兼容IE FF）](http://www.cnblogs.com/hlz789456123/archive/2009/02/18/1392972.html)
 
 
-
-## active hover 按钮伪类属性
-
-
-
 ## 遮罩实现
 ```css
 /**
@@ -57,7 +52,6 @@
 ```css
 :nth-child(n+5)
 ```
-
 参考链接：[CSS3 选择器——伪类选择器](http://www.w3cplus.com/css3/pseudo-class-selector)
 
 
@@ -75,3 +69,22 @@ box-shadow:2px 2px 3px #aaaaaa;
 
 ## position 类型和区别
 [W3cschool CSS position 属性](http://www.w3school.com.cn/cssref/pr_class_position.asp)
+
+
+## 减少reflow次数
+![reflow-chart](https://developers.google.com/speed/images/reflow-chart.png)
+[Minimizing browser reflow](https://developers.google.com/speed/articles/reflow?csw=1)
+
+## 元素宽高度指定失效的情况
+
+```css
+/* 宽度失效，浏览器会根据内容长度来确定元素宽度 */
+.case1 {
+  float: left|right;
+}
+
+/* 宽度和高度都失效，使用inline-block可以自定义设置长宽 */
+.case2 {
+  display: inline; 
+}
+```

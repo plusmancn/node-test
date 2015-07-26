@@ -18,7 +18,6 @@
 | 15-architect-minibook | 架构师迷你书
 | 16-form-data-init   |  结合bootstrap表单数据初始化jquery插件
 | 19-node-interview-problem  |  ndoe面试问题解答
-| 23-sp-alert        |   简易弹框实现，模拟ios原生弹框，添加回调方法
 | 24-timer           |   浏览器内事件驱动（非基于dom）倒计时器
 
 ### Css
@@ -28,6 +27,7 @@
 | 18-css-center      |   居中问题研究
 | 20-css-basic       |   css基础
 | 21-css-animation   |   css3动画
+| 23-sp-alert        |   简易弹框实现，模拟ios原生弹框，添加回调方法
 
 ### Server
 | 目录 | 说明
@@ -41,3 +41,4 @@
 
 ## 参考资源
 [JackSon Tian](https://github.com/JacksonTian) 所著《深入浅出node.js》
+[Google Devel > Make the Web Faster](https://developers.google.com/speed/)
