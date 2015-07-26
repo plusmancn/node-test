@@ -59,6 +59,7 @@
 
 ## flex布局
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[图解CSS3 Flexbox属性](http://www.w3cplus.com/css3/a-visual-guide-to-css3-flexbox-properties.html)
 
 ## box-shadow 属性
 ```css
