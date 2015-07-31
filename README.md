@@ -20,7 +20,8 @@
 | 24-timer           |   浏览器内事件驱动（非基于dom）倒计时器
 | 25-node-rsa        |   rsa 加密、验证
 | 26-cookie  | cookie相关操作
-
+| 27-async | async异步编程
+| 28-phoneGap | 尝试用phoneGap做app封装
 
 ### Css
 | 目录 | 说明
