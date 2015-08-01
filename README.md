@@ -21,7 +21,7 @@
 | 25-node-rsa        |   rsa 加密、验证
 | 26-cookie  | cookie相关操作
 | 27-async | async异步编程
-| 28-phoneGap | 尝试用phoneGap做app封装
+| 28-phoneGap | phoneGap 封装实践
 
 ### Css
 | 目录 | 说明

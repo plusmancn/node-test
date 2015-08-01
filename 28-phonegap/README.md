@@ -44,8 +44,26 @@ cordova plugin add org.apache.cordova.statusbar
 安装插件 [org.apache.cordova.camera](http://plugins.cordova.io/#/package/org.apache.cordova.camera)
 
 ## 存储实现，用于保存用户信息
-**利用store存储用户信息**
-https://github.com/marcuswestin/store.js
+**client**
+利用[store](https://github.com/marcuswestin/store.js)存储信息，在所有http请求上带上token，[Set headers for all $http calls in angular js](http://www.angulartutorial.net/2014/05/set-headers-for-all-http-calls-in.html)  
+**server**
+头设置
+```javascript
+res.set('Access-Control-Allow-Origin','*');
+res.set('Access-Control-Allow-Methods','POST, GET, DELETE, PUT');
+res.set('Access-Control-Allow-Headers','x-hwtech-jbj-accesstoken,Content-Type');
+```
+**cookie模拟**
+在自定义getCookie方法中，读取顺序为cookie，localStorage  
+在angular中，accessToken可以移动到头部，可以通过设置$http对象，全局设置
+```javascript
+youApp.run(function($http) {
+  // 从store读取
+  $http.defaults.headers.common['x-hwtech-jbj-accesstoken'] = store.get('x-hwtech-jbj-accesstoken') || '';
+});
+```
+服务器解析请求的时候，优先从cookie中解析，再从req.headers中解析  
+*用户登出的时候，同时清空store和cookie*
 
 
 ## 写一个丑陋的gulp打包插件吧 X 并不需要
