@@ -43,6 +43,11 @@
 | 14-short-url       |   短域名服务研究和测试   
 | 22-linux-basic     |   linux基础知识
 
+### ES6
+| 目录 | 说明
+|:--- |:---
+
+
 ## 参考资源
 [JackSon Tian](https://github.com/JacksonTian) 所著《深入浅出node.js》
 [Google Devel > Make the Web Faster](https://developers.google.com/speed/)
