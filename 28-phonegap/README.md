@@ -2,6 +2,7 @@
 
 ## Debug
 [http://docs.phonegap.com/en/edge/guide_next_index.md.html#Debugging](http://docs.phonegap.com/en/edge/guide_next_index.md.html#Debugging)
+[Remote Debugging on Android with Chrome](https://developer.chrome.com/devtools/docs/remote-debugging#debugging-webviews)
 
 ## html配置
 ```html
@@ -74,6 +75,9 @@ youApp.run(function($http) {
 <content src="index_phonegap.html" />
 ```
 
+## 推送
+[cordova3.5整合百度云推送PushNotification（1）](http://gundumw100.iteye.com/blog/2097755)
+[百度云推送](http://push.baidu.com/)
 
 ## 打包
 ### Android

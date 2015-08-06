@@ -22,6 +22,7 @@
 | 26-cookie  | cookie相关操作
 | 27-async | async异步编程
 | 28-phoneGap | phoneGap 封装实践
+| 29-jade | jade 学习笔记 & 常用模板
 
 ### Css
 | 目录 | 说明
