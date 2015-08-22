@@ -43,7 +43,7 @@
 | 13-cross-domain    |   跨域研究
 | 14-short-url       |   短域名服务研究和测试   
 | 22-linux-basic     |   linux基础知识
-| 31-rsync | linux 增量同步，还未投入使用，暂不发布
+| 31-rsync | linux 增量同步，还未投入使用，暂不发布 
 
 ### ES6
 | 目录 | 说明
