@@ -49,7 +49,14 @@ curl --request POST https://example.com/resource.cgi
 ```
 
 
-## 添加用户
+## tar 使用
+```shell
+# 打包，gz格式
+tar -zcvf rsync2pub.tar.gz rsync2pub/
+# 解压缩
+tar -xvf rsync2pub.tar.gz
+```
+
 
 
 ## 查看端口占用

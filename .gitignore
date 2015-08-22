@@ -34,3 +34,6 @@ bower_components
 # 忽略MarkdownPreview中间文件
 README.html
 RESUME.html
+
+# 忽略特定项目目录
+/31-rsync

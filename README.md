@@ -43,10 +43,13 @@
 | 13-cross-domain    |   跨域研究
 | 14-short-url       |   短域名服务研究和测试   
 | 22-linux-basic     |   linux基础知识
+| 31-rsync | linux 增量同步
+|
 
 ### ES6
 | 目录 | 说明
 |:--- |:---
+|30-es6-share | es6新特性分享（结合点实践经验）
 
 
 ## 参考资源
