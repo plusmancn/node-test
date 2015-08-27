@@ -11,3 +11,5 @@
  * ## 设置服务器返回头，在服务器可控制的情况下
  * "access-control-allow-origin:*" 
  */
+res.set('Access-Control-Allow-Origin','*');
+res.set('Access-Control-Allow-Methods','POST, GET, DELETE, PUT');

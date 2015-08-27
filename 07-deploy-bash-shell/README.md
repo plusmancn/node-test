@@ -6,7 +6,6 @@
 基于git
 
 
-
 ## 参考资料
 [PM2官方自动部署方式](https://github.com/Unitech/PM2/blob/master/ADVANCED_README.md#deployment)
 [Auto-deploy with GitHub's WebHooks and Node](http://fideloper.com/node-github-autodeploy)
