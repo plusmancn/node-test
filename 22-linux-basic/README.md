@@ -1,8 +1,8 @@
 # Linux基础命令
 
 ---
-[Linux Today][1]
-
+[Linux Today][1]  
+[Linux Tools Quick Tutorial](http://linuxtools-rst.readthedocs.org/zh_CN/latest/tool/crontab.html)
 ---
 ## ln
 ```shell
@@ -57,7 +57,34 @@ tar -zcvf rsync2pub.tar.gz rsync2pub/
 tar -xvf rsync2pub.tar.gz
 ```
 
+## nohup
+```shell
+nohup command &  # & -> 后台挂起，不给你机会按ctrl+c；
+# 如果nohup在前台运行的时候，发送ctrl+c信号，是可以终止程序的。
+```
+在没有关闭session窗口的情况下可以前置进程，对nohup似乎没有多大意义
+```shell
+jobs # 查看任务
+fg %n # 前置任务
+```
+所以，如果需要终止运行，请用，ps + kill 命令杀死进程。
 
+
+## kill - num
+信号量发送，各种终端
+```shell
+  The following pids have special meanings:
+  -1      If superuser, broadcast the signal to all processes; otherwise broadcast to all processes belonging to the user.
+
+  Some of the more commonly used signals:
+  1       HUP (hang up)
+  2       INT (interrupt)
+  3       QUIT (quit)
+  6       ABRT (abort)
+  9       KILL (non-catchable, non-ignorable kill) // 9 进行资源回收
+  14      ALRM (alarm clock)
+  15      TERM (software termination signal)
+```
 
 ## 查看端口占用
 ```shell
