@@ -1,0 +1,15 @@
+{
+  "name": "33-node-event-loop",
+  "version": "1.0.0",
+  "description": "[Understanding the node.js event loop](http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/) [https://www.youtube.com/watch?v=8aGhZQkoFbQ&feature=youtu.be](https://www.youtube.com/watch?v=8aGhZQkoFbQ&feature=youtu.be)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "microtime": "^2.0.0"
+  }
+}
