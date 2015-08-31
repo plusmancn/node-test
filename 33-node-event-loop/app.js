@@ -16,6 +16,8 @@ function loop_time_wait(callback){
   },5000);
 }
 
+var visitedTotal = 0;
+
 var server = http.createServer(function(req,res){
   var query = url.parse(req.url,true).query;
   switch(query.act){
@@ -35,6 +37,7 @@ var server = http.createServer(function(req,res){
       });
       break;
     case 'imediate':
+      console.log(visitedTotal++);
       res.end('immediate');
       break;
     default:
