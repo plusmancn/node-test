@@ -23,6 +23,7 @@
 | 27-async | async异步编程
 | 28-phoneGap | phoneGap 封装实践
 | 29-jade | jade 学习笔记 & 常用模板
+| 33-node-event-loop | node事件循环池
 
 ### Css
 | 目录 | 说明
