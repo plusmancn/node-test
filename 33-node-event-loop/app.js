@@ -3,9 +3,10 @@ var http = require('http');
 var url = require('url');
 var cpus = require('os').cpus();
 var cp = require('child_process');
+var fs = require('fs');
 
 function loop_cpu_intensive(callback){
-  var count = 1e10;
+  var count = 1e9;
   while(count--){};
   callback();
 }
@@ -48,4 +49,5 @@ var server = http.createServer(function(req,res){
 
 server.listen(3000,function(e){
   console.log('server listen on 3000');
+  fs.writeFile('./process.pid',process.pid);
 });

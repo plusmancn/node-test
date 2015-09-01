@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 function loop_cpu_intensive(callback){
-  var count = 1e10;
+  var count = 1e9;
   while(count--){};
-  console.log('loop_cpu_intensive_child_process');
+  console.log(process.env.NODE_CHANNEL_FD);
   callback();
 }
 
