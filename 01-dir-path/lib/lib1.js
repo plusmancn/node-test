@@ -6,7 +6,8 @@ console.log(__filename,' at ',__dirname);
 console.log(__filename,' cwd at ',process.cwd());
 
 
-module.exports.getJson = function(){
+exports.getJson = function(){
   var testJson = require('../config/test.json');
   console.log('From function',testJson);  
 }
+
