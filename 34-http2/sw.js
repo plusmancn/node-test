@@ -1,12 +1,9 @@
-// The files we want to cache
-var urlsToCache = [
-  '/',
-  './sw.css'
-];
-
 // Set the callback for the install step
 self.addEventListener('install', function(event) {
-  console.log(event);
+  console.log('install');
 });
 
-// 坚挺
+// 监听fetch事件
+self.addEventListener('fetch',function(event){
+  debugger;
+});
