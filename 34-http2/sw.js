@@ -5,5 +5,9 @@ self.addEventListener('install', function(event) {
 
 // 监听fetch事件
 self.addEventListener('fetch',function(event){
-  debugger;
+  var myBlob = 'hello world';
+  var init = { "status" : 200 , "statusText" : "SuperSmashingGreat!" }
+  var myResponse = new Response(myBlob,init);
+
+  event.respondWith(myResponse);
 });
