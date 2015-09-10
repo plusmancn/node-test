@@ -37,3 +37,4 @@ RESUME.html
 
 # 忽略特定项目目录
 /31-rsync
+/35-api-test

@@ -45,7 +45,9 @@
 | 14-short-url       |   短域名服务研究和测试   
 | 22-linux-basic     |   linux基础知识
 | 31-rsync | linux 增量同步，还未投入使用，暂不发布 
-| 34-http2 | http2 协议
+| 34-serviceworker | serviceworker 测试
+| 35-api-test | api测试用例代码
+
 
 ### ES6
 | 目录 | 说明
