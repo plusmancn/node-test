@@ -47,6 +47,7 @@
 | 31-rsync | linux 增量同步，还未投入使用，暂不发布 
 | 34-serviceworker | serviceworker 测试
 | 35-api-test | api测试用例代码
+| 37-redis | redis配置文件
 
 
 ### ES6
