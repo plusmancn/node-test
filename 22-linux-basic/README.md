@@ -90,7 +90,10 @@ fg %n # 前置任务
 ```shell
 netstat -apn | grep 
 ```
+## 开机启动服务
+```
 
+```
 
 ## 服务器运行状态监控
 [20 Command Line Tools to Monitor Linux Performance][2]
