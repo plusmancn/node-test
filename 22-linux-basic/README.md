@@ -90,10 +90,30 @@ fg %n # 前置任务
 ```shell
 netstat -apn | grep 
 ```
-## 开机启动服务
+## 源切换
+阿里云开源镜像站点
+http://mirrors.aliyun.com/    
+**命令历史**
+```shell
+cat /etc/lsb-release
+vim /etc/apt/sources.list
+apt-get update
+apt-cache search python | less
+```
+**sources.list 推荐配置**  
+```
+deb http://mirrors.aliyuncs.com/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.aliyuncs.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.aliyuncs.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.aliyuncs.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.aliyuncs.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.aliyuncs.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.aliyuncs.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.aliyuncs.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.aliyuncs.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyuncs.com/ubuntu/ precise-backports main restricted universe multiverse
 ```
 
-```
 
 ## 服务器运行状态监控
 [20 Command Line Tools to Monitor Linux Performance][2]
