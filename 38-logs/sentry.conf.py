@@ -36,3 +36,10 @@ SENTRY_CACHE = 'sentry.cache.redis.RedisCache'
 
 # all address
 SENTRY_WEB_HOST = '0.0.0.0'  # bind to all addresses
+
+# Outbound Mail
+EMAIL_HOST = 'localhost'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_USER = ''
+EMAIL_PORT = 25
+EMAIL_USE_TLS = False

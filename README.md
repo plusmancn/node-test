@@ -48,6 +48,8 @@
 | 34-serviceworker | serviceworker 测试
 | 35-api-test | api测试用例代码
 | 37-redis | redis配置文件
+| 38-logs | sentry搭建尝试
+| 39-network | node 网络编程
 
 
 ### ES6
