@@ -1,8 +1,11 @@
 var net = require('net');
 
-var client = net.connect({port: 8124},function(){
+var client = net.connect({
+  // host:'sentry.plusman.cn',
+  port: 1337
+},function(){
   console.log('client connected');
-  client.write('world!\n');
+  client.write('world!');
 });
 
 client.on('data',function(data){

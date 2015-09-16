@@ -24,7 +24,8 @@
     "async": "^1.4.2",
     "memcached": "^2.1.0",
     "moment": "^2.10.3",
-    "moment-timezone": "^0.4.0"
+    "moment-timezone": "^0.4.0",
+    "errlog":"./37-redis/errlog"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
