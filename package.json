@@ -22,10 +22,12 @@
   "homepage": "https://github.com/plusmancn/node-test#readme",
   "dependencies": {
     "async": "^1.4.2",
+    "benchmark": "^1.0.0",
+    "errlog": "./37-redis/errlog",
     "memcached": "^2.1.0",
+    "microtime": "^2.0.0",
     "moment": "^2.10.3",
-    "moment-timezone": "^0.4.0",
-    "errlog":"./37-redis/errlog"
+    "moment-timezone": "^0.4.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
