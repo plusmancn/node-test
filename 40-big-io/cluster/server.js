@@ -2,7 +2,6 @@ var cluster = require('cluster');
 var http = require('http');
 var numCPUs = require('os').cpus().length;
 
-var count = 0;
 if (cluster.isMaster) {
   // Fork workers.
   for (var i = 0; i < numCPUs; i++) {
@@ -13,6 +12,7 @@ if (cluster.isMaster) {
     console.log('worker ' + worker.process.pid + ' died');
   });
 } else {
+  var count = 0;
   // Workers can share any TCP connection
   // In this case its a HTTP server
   http.createServer(function(req, res) {
