@@ -35,5 +35,7 @@ suite.add('Server#cluster', function(deferred) {
 
 // 利用ab测试
 // ab -c 4 -n 50 http://127.0.0.1:9000/
+// ab -c 4 -n 50 http://127.0.0.1:9000/
 // ab -c 4 -n 50 http://127.0.0.1:8000/
+// ab -c 4 -n 50 http://sentry.plusman.cn:8000/
 // 看cpu核数，性能会有相应提升 ？提升真实内核数目的倍数，虚拟的无效
