@@ -24,6 +24,7 @@
     "async": "^1.4.2",
     "benchmark": "^1.0.0",
     "errlog": "./37-redis/errlog",
+    "koa": "^1.1.0",
     "memcached": "^2.1.0",
     "microtime": "^2.0.0",
     "moment": "^2.10.3",

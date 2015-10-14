@@ -1,0 +1,2 @@
+fweog 1
+zsh: command not found: ech
